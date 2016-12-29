@@ -1,6 +1,12 @@
 {
   "name": "dxplor",
-  "app_id": "",
+  "app_id": "a92daffe",
   "v2": true,
-  "typescript": true
+  "typescript": true,
+  "proxies": [
+    {
+      "path": "/11WS",
+      "proxyUrl": "http://xml.travflex.com"
+    }
+  ]
 }
